@@ -9,6 +9,8 @@ https://kuizuo.cn/
 
 几个后续还经常要使用到的一些命令：
 ```
+npm start
+
 ​​​​npm run build
 ​​​​npm run deploy
 ```
