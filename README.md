@@ -3,14 +3,8 @@
 https://docusaurus.io/
 
 
-同时参考了一些优秀的博主：
-https://kuizuo.cn/
-
-
 几个后续还经常要使用到的一些命令：
 ```
-npm start
-
 ​​​​npm run build
 ​​​​npm run deploy
 ```
