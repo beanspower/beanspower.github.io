@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 label: '文档',
-                to: '/docs/category/ee',
+                to: '/docs/category/power-electronics',
               },
               {
                 label: '博客',
