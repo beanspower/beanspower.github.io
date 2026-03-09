@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 自定义首页 header 背景颜色 */
+.hero--primary {
+    background: linear-gradient(135deg, #9fccf0 0%, #0056d8 100%);
+}

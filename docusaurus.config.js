@@ -10,9 +10,14 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Beanspower',
-  tagline: 'Aal izz well!',
-  favicon: 'img/favicon.ico',
+  title: 'Beans Power',
+  tagline: '分享技术，启发思考',
+  favicon: 'img/web_title_logo.ico',
+  
+  // 添加自定义类名到 <html> 标签
+  customFields: {
+    htmlClassName: 'custom-html-class',
+  },
 
   deploymentBranch: 'gh-pages',
 
@@ -47,8 +52,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //   editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -58,8 +63,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -78,21 +83,22 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Benas Power',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/web_title_logo.ico',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'right'},
+          {to: '/me', label: '关于我', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/beanspower/beanspower.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,8 +111,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '文档',
+                to: '/docs/category/ee',
+              },
+              {
+                label: '博客',
+                to: '/blog',
               },
             ],
           },
@@ -114,16 +124,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Ti',
+                href: 'https://www.ti.com.cn/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Onsemi',
+                href: 'https://www.onsemi.com/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'MPS',
+                href: 'https://www.monolithicpower.com/',
               },
             ],
           },
@@ -131,17 +141,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub',
+                href: 'https://github.com/beanspower',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2019 - ${new Date().getFullYear()} Beans Power. | Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

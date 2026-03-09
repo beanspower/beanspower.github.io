@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: [beanspower,slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---
 
@@ -9,6 +9,7 @@ tags: [facebook, hello, docusaurus]
 
 Here are a few tips you might find useful.
 
+Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
 <!-- truncate -->
 
 Simply add Markdown files (or folders) to the `blog` directory.

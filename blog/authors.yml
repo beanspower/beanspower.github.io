@@ -8,6 +8,17 @@ yangshun:
     x: yangshunz
     github: yangshun
 
+beanspower:
+  name: Beanspower
+  title: System & Digital Engineer
+  url: https://github.com/beanspower
+  image_url: https://github.com/beanspower.png
+  page: true
+  socials:
+    x: beanspower
+    github: beanspower
+    zhihu: https://www.zhihu.com/people/beanspower
+
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer

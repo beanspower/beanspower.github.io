@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial intelligence tag description
+
+ee:
+  label: EE
+  permalink: /ee
+  description: Electrical Engineering tag description
+
+tools:
+  label: Tools
+  permalink: /tools
+  description: Efficient tools tag description
