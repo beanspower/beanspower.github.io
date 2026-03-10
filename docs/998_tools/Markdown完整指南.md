@@ -673,12 +673,12 @@ URL 或邮箱直接转为可点击链接。
 代码如下：
 
 ```
-:smile: :heart: :thumbsup: :woman: :cry:
+:smile: :heart: :woman: :cry:
 ```
 
 效果如下：
 
-:smile: :heart: :thumbsup: :woman: :cry:
+:smile: :heart: :woman: :cry:
 
 > 更多表情符号可参考：[emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
@@ -955,17 +955,7 @@ sequenceDiagram
 ~~~
 
 效果如下：
-
-```mermaid
-sequenceDiagram
-    participant 用户
-    participant 服务器
-    participant 数据库
-    用户->>服务器: 发送请求
-    服务器->>数据库: 查询数据
-    数据库-->>服务器: 返回结果
-    服务器-->>用户: 响应数据
-```
+![](images/2026-03-10-23-47-54.png)
 
 ### 17.3 饼图
 
@@ -982,14 +972,7 @@ pie title 编程语言使用占比
 ~~~
 
 效果如下：
-
-```mermaid
-pie title 编程语言使用占比
-    "JavaScript" : 40
-    "Python" : 30
-    "Java" : 20
-    "其他" : 10
-```
+![](images/2026-03-10-23-47-45.png)
 
 ---
 
