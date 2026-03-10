@@ -32,6 +32,8 @@ const config = {
   organizationName: 'beanspower', // Usually your GitHub org/user name.
   projectName: 'beanspower.github.io', // Usually your repo name.
 
+  trailingSlash: false,
+
   onBrokenLinks: 'throw',
 
   markdown: {
