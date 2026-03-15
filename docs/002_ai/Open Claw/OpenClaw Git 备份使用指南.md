@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # OpenClaw Git 备份使用指南
 
 > 整理时间：2026-03-06
